@@ -1,0 +1,19 @@
+testimony.py - download all bill testimony from the state of Connecticut's
+	       general asssembly website.
+
+USAGE
+
+python testimony.py BILL_NUMBER YEAR DEST
+
+     BILL_NUMBER    should be formatted like HB-5303
+     YEAR           is the session year
+     DEST           is the destination folder
+
+TODO
+
+This is very basic and I haven't had time to package it up, put it in pypi
+or document it well.
+
+I also didn't bother using argparse to handle command line args, or
+anything else that would make this into a nice utility. This is GPL'd so if
+you want to do this, please go ahead!
