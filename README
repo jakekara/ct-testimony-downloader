@@ -9,6 +9,11 @@ python testimony.py BILL_NUMBER YEAR DEST
      YEAR           is the session year
      DEST           is the destination folder
 
+
+EXAMPLE
+
+python testimony.py HB-5303 2018 HB-5303
+
 TODO
 
 This is very basic and I haven't had time to package it up, put it in pypi
